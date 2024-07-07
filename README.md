@@ -33,7 +33,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 <p align="center">
 
 | Dataset |  Modality  |   Obj. Class  | BBox | Rela. Class | Triplets | Instances | 
-|:--------:|:--------|:--------:| :--------:|  :--------:|  :--------:|  :--------:|
+|:--------:|:--------:|:--------:| :--------:|  :--------:|  :--------:|  :--------:|
 | [Visual Phrase](https://vision.cs.uiuc.edu/phrasal/) | Image | 8 | 3,271 | 9 | 1,796 | 2,769 |
 | [Scene Graph](https://openaccess.thecvf.com/content_cvpr_2015/papers/Johnson_Image_Retrieval_Using_2015_CVPR_paper.pdf) | Image | 266 | 69,009 | 68 | 109,535 | 5,000 |
 | [VRD]()  | Image | 100 | - | 70 | 37,993 | 5,000 |
@@ -90,7 +90,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 
 ## Image Retrieval
 
-+ **Image Retrieval using Scene Graphs** [![Paper](https://img.shields.io/badge/CVPR15-8A2BE2)](https://openaccess.thecvf.com/content_cvpr_2015/papers/Johnson_Image_Retrieval_Using_2015_CVPR_paper.pdf) ![Star](https://img.shields.io/github/stars/InternLM/InternLM-XComposer.svg?style=social&label=Star) <details><summary>Justin Johnson, Ranjay Krishna et al.</summary> Justin Johnson, Ranjay Krishna, Michael Stark, Li-Jia Li, David Shamma, Michael Bernstein, Li Fei-Fei</details></details>
++ **Image Retrieval using Scene Graphs** [![Paper](https://img.shields.io/badge/CVPR15-8A2BE2)](https://openaccess.thecvf.com/content_cvpr_2015/papers/Johnson_Image_Retrieval_Using_2015_CVPR_paper.pdf) ![Star](https://img.shields.io/github/stars/InternLM/InternLM-XComposer.svg?style=social&label=Star) <br> Justin Johnson, Ranjay Krishna, Michael Stark, Li-Jia Li, David Shamma, Michael Bernstein, Li Fei-Fei
 
 
 
