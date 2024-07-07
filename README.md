@@ -26,7 +26,8 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Textual Scene Graph Generation](#textual-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
   - [Image Retrieval](#image-retrieval)
-  - [Image Generation](#image-generation)
+  - [2D Image Generation](#2d-image-generation)
+  - [3D Generation](#3d-generation)
   - [Visual Question Answering](#visual-question-answering)
   - [Mitigate Hallucination](#mitigate-hallucination)
   - [Dynamic Environment Guidance](#dynamic-environment-guidance)
@@ -65,6 +66,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [AeroEye](https://arxiv.org/pdf/2406.01029) | Video (Drone-View) | 56 | - | 384 | - | 2.2M |
 | [PVSG](https://jingkang50.github.io/PVSG/) | Video (panoptic) | 126 | - |  57 |  - | 400|
 | [3D Semantic Scene Graphs (3DSSG)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) | 3D | 40 | - | - | - | 48K|
+| [PSG4D](https://arxiv.org/pdf/2405.10305) | 46 | - | 15 | - | - | - |
 | [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) | Text | - | - | - | - | 40,369 |
 </p>
 
@@ -101,9 +103,18 @@ In this graph, the nodes correspond to object bounding boxes with their category
 ### Non-LLM-based
 
 + [**Leveraging Predicate and Triplet Learning for Scene Graph Generation**](https://arxiv.org/pdf/2406.02038) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/jkli1998/DRM.svg?style=social&label=Star)](https://github.com/jkli1998/DRM) 
+ 
 
++ [**DSGG: Dense Relation Transformer for an End-to-end Scene Graph Generation**](https://arxiv.org/pdf/2403.14886) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/zeeshanhayder/DSGG.svg?style=social&label=Star)](https://github.com/zeeshanhayder/DSGGM) 
+
++ [**HiKER-SGG: Hierarchical Knowledge Enhanced Robust Scene Graph Generation**](https://arxiv.org/pdf/2403.12033) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/zhangce01/HiKER-SGG.svg?style=social&label=Star)](https://github.com/zhangce01/HiKER-SGG)
+
+
++ [**EGTR: Extracting Graph from Transformer for Scene Graph Generation**](https://arxiv.org/pdf/2404.02072) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/naver-ai/egtr.svg?style=social&label=Star)](https://github.com/naver-ai/egtr) 
 
 + [**STAR: A First-Ever Dataset and A Large-Scale Benchmark for Scene Graph Generation in Large-Size Satellite Imagery**](https://arxiv.org/pdf/2406.09410) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/Zhuzi24/SGG-ToolKit.svg?style=social&label=Star)](https://github.com/Zhuzi24/SGG-ToolKit) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://linlin-dev.github.io/project/STAR)
+
++ [**Improving Scene Graph Generation with Relation Words’ Debiasing in Vision-Language Models**](https://arxiv.org/pdf/2403.16184) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**ReCon1M:A Large-scale Benchmark Dataset for Relation Comprehension in Remote Sensing Imagery**](https://arxiv.org/pdf/2406.06028) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
@@ -126,6 +137,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 + [**Scene Graph Generation From Objects, Phrases and Region Captions**](https://openaccess.thecvf.com/content_ICCV_2017/papers/Li_Scene_Graph_Generation_ICCV_2017_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV17-2f4f4f)]() [![Star](https://img.shields.io/github/stars/yikang-li/MSDN.svg?style=social&label=Star)](https://github.com/yikang-li/MSDN)
 
 + [**Visual Relationship Detection with Language Priors**](https://arxiv.org/pdf/1608.00187) [![Paper](https://img.shields.io/badge/ECCV16-1e90ff)]() [![Star](https://img.shields.io/github/stars/Prof-Lu-Cewu/Visual-Relationship-Detection.svg?style=social&label=Star)](https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection)
+
 
 
 
@@ -198,6 +210,7 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 + [**EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion**](https://arxiv.org/pdf/2405.00915) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/echoscene.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/echoscene)
 
++ [**Weakly-Supervised 3D Scene Graph Generation via Visual-Linguistic Assisted Pseudo-labeling**](https://arxiv.org/pdf/2404.02527) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() 
 
 + [**Incremental 3D Semantic Scene Graph Prediction from RGB Sequences**](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Incremental_3D_Semantic_Scene_Graph_Prediction_From_RGB_Sequences_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://shunchengwu.github.io/MonoSSG)
 
@@ -235,7 +248,7 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 
 
-## Image Generation
+## 2D Image Generation
 
 + [**SG-Adapter: Enhancing Text-to-Image Generation with Scene Graph Guidance**](https://arxiv.org/pdf/2405.15321) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
@@ -248,6 +261,9 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 + [**SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge**](https://arxiv.org/pdf/2405.09713) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://bobbywu.com/SOKBench/)
 
 
+## 3D Generation
+
++ [**Compositional 3D Scene Synthesis with Scene Graph Guided Layout-Shape Generation**](https://arxiv.org/pdf/2403.12848) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 
 ## Mitigate Hallucination 
@@ -257,7 +273,12 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 ## Dynamic Environment Guidance
 
-+ [**Situational Instructions Database: Task Guidance in Dynamic Environments**](https://arxiv.org/pdf/2406.13302) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/mindgarage/situational-instructions-database.svg?style=social&label=Star)](https://github.com/mindgarage/situational-instructions-database) 
++ [**Situational Instructions Database: Task Guidance in Dynamic Environments**](https://arxiv.org/pdf/2406.13302) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/mindgarage/situational-instructions-database.svg?style=social&label=Star)](https://github.com/mindgarage/situational-instructions-database)
+
++ [**RoboHop: Segment-based Topological Map Representation for Open-World Visual Navigation**](https://arxiv.org/pdf/2405.05792) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://oravus.github.io/RoboHop/)
+
++ [**LLM-Personalize: Aligning LLM Planners with Human Preferences via Reinforced Self-Training for Housekeeping Robots**]() [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/donggehan/codellmpersonalize.svg?style=social&label=Star)](https://github.com/donggehan/codellmpersonalize) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://donggehan.github.io/projectllmpersonalize/)
+
 
 
 ## Privacy-sensitive Object Identification
