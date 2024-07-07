@@ -19,14 +19,21 @@ In this graph, the nodes correspond to object bounding boxes with their category
 - [📕 Table of Contents](#-contents)
 - [🌷 Scene Graph Datasets](#-datasets)
 - [🍕 Scene Graph Generation](#-scene-graph-generation)
-  - [Image Scene Graph Generation](#)
-  - [Video Scene Graph Generation](#)
-  - [Audio Scene Graph Generation](#)
+  - [2D (Image) Scene Graph Generation](#2d-image-scene-graph-generation)
+  - [Spatio-Temporal (Video) Scene Graph Generation](#spatio-temporal-video-scene-graph-generation)
+  - [Audio Scene Graph Generation](#audio-scene-graph-generation)
+  - [3D Scene Graph Generation](#3d-scene-graph-generation)
+  - [Textual Scene Graph Generation](#textual-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
-  - [Image Retrieval](#)
-  - [Visual Question Answering](#)
+  - [Image Retrieval](#image-retrieval)
+  - [Image Generation](#image-generation)
+  - [Visual Question Answering](#visual-question-answering)
+  - [Mitigate Hallucination](#mitigate-hallucination)
+  - [Dynamic Environment Guidance](#dynamic-environment-guidance)
+  - [Privacy-sensitive Object Identification](#privacy-sensitive-object-identification)
   - [Image Captioning](#)
-  - [Video Retrieval](#)
+  - [Video Retrieval](#video-retrieval)
+- [Evaluation Metrics](#evaluation-metrics)
 - [⭐️ Star History](#️-star-history)
 
 
@@ -78,7 +85,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 
 # 🍕 Scene Graph Generation
 
-## 2-D (Image) Scene Graph Generation
+## 2D (Image) Scene Graph Generation
 
 
 ### LLM-based 
@@ -172,11 +179,19 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 + [**Video Visual Relation Detection**](https://dl.acm.org/doi/10.1145/3123266.3123380) [![Paper](https://img.shields.io/badge/MM23-8b4513)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://xdshang.github.io/docs/imagenet-vidvrd.html)
 
+
+
+
+
+
 ## Audio Scene Graph Generation
 
 + [**Visual Scene Graphs for Audio Source Separation**](https://openaccess.thecvf.com/content_cvpr_2015/papers/Johnson_Image_Retrieval_Using_2015_CVPR_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() 
 
-+ [**Learning Audio-Visual Dynamics Using Scene Graphs for Audio Source Separation**](https://arxiv.org/pdf/2210.16472) [![Paper](https://img.shields.io/badge/NIPS22-CD5C5C)]() 
++ [**Learning Audio-Visual Dynamics Using Scene Graphs for Audio Source Separation**](https://arxiv.org/pdf/2210.16472) [![Paper](https://img.shields.io/badge/NIPS22-CD5C5C2)]() 
+
+
+
 
 
 ## 3D Scene Graph Generation
@@ -189,6 +204,9 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 + [**SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences**](https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_SceneGraphFusion_Incremental_3D_Scene_Graph_Prediction_From_RGB-D_Sequences_CVPR_2021_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR21-8A2BE2)]() [![Star](https://img.shields.io/github/stars/ShunChengWu/SceneGraphFusion.svg?style=social&label=Star)](https://github.com/ShunChengWu/SceneGraphFusion) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://shunchengwu.github.io/SceneGraphFusion)
 
 + [**Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR20-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/ShunChengWu/3DSSG.svg?style=social&label=Star)](https://github.com/ShunChengWu/3DSSG) 
+
+
+
 
 
 ## Textual Scene Graph Generation
