@@ -12,7 +12,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   <img src="assets/intro1.png" width="75%">
 </p>
 
-
+---
 
 # 📕 Table of Contents
 - [🎨 Introduction](#-introduction)
@@ -28,6 +28,10 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Image Captioning](#)
   - [Video Retrieval](#)
 - [⭐️ Star History](#️-star-history)
+
+
+---
+
 
 # 🌷 Scene Graph Datasets
 <p align="center">
@@ -49,6 +53,8 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [FACTUAL]() | Text | - | - | - | - | 40,369 |
 </p>
 
+
+---
 
 <!-- CVPR-8A2BE2 -->
 <!-- NIPS-CD5C5C -->
@@ -86,6 +92,9 @@ In this graph, the nodes correspond to object bounding boxes with their category
 ## 
 
 
+---
+
+
 # 🥝 Scene Graph Application
 
 ## Image Retrieval
@@ -101,6 +110,10 @@ In this graph, the nodes correspond to object bounding boxes with their category
 + **An Image is Worth 32 Tokens for Reconstruction and Generation** [![Paper](https://img.shields.io/badge/AAAI-c71585)](https://arxiv.org/abs/2406.07550)<details><summary>Qihang Yu, Mark Weber, Xueqing Deng et al.</summary> Qihang Yu, Mark Weber, Xueqing Deng, Xiaohui Shen, Daniel Cremers, Liang-Chieh Chen</details></details>
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg)]()
 [![citation](https://img.shields.io/badge/citation-0-blue.svg?paper=da0d382c7fa981ba185ca633868442b75cb76de6)](https://www.semanticscholar.org/paper/1e31f4a4ccfc0d1e461be05361d77b5e045f4d37)
+
+
+
+---
 
 
 # ⭐️ Star History
