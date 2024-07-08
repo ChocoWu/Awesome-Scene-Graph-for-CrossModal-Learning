@@ -34,7 +34,11 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Privacy-sensitive Object Identification](#privacy-sensitive-object-identification)
   - [Image Captioning](#)
   - [Video Retrieval](#video-retrieval)
-- [Evaluation Metrics](#evaluation-metrics)
+- [🤶 Evaluation Metrics](#evaluation-metrics)
+- [🐱‍🚀 Miscellaneous](#miscellaneous)
+  - [Toolkit](#toolkit)
+  - [Workshop](#workshop)
+  - [Survey](#survey)
 - [⭐️ Star History](#️-star-history)
 
 
@@ -312,7 +316,7 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 ---
 
 
-# Evaluation Metrics
+# 🤶 Evaluation Metrics [Back_to_top](#-table-of-contents)
 
 + [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
 
@@ -321,7 +325,7 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 ---
 
-# Miscellaneous
+# 🐱‍🚀 Miscellaneous
 
 ## Toolkit
 Here, we provide some toolkits for parsing scene graphs or other useful tools for referencess.
