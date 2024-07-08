@@ -66,7 +66,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [AeroEye](https://arxiv.org/pdf/2406.01029) | Video (Drone-View) | 56 | - | 384 | - | 2.2M |
 | [PVSG](https://jingkang50.github.io/PVSG/) | Video (panoptic) | 126 | - |  57 |  - | 400|
 | [3D Semantic Scene Graphs (3DSSG)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) | 3D | 40 | - | - | - | 48K|
-| [PSG4D](https://arxiv.org/pdf/2405.10305) | 46 | - | 15 | - | - | - |
+| [PSG4D](https://arxiv.org/pdf/2405.10305) | 4D | 46 | - | 15 | - | - | - |
 | [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) | Text | - | - | - | - | 40,369 |
 </p>
 
@@ -83,12 +83,18 @@ In this graph, the nodes correspond to object bounding boxes with their category
 <!-- IJCAI-228b22 -->
 <!-- AAAI-c71585 -->
 <!-- arXiv-b22222 -->
+<!-- ACL-191970 -->
+<!-- TPAMI-ffa07a -->
 
 
 # 🍕 Scene Graph Generation
 
 ## 2D (Image) Scene Graph Generation
 
+There are three subtasks:
+- `Predicate classification`: given ground-truth labels and bounding boxes of object pairs, predict the predicate label.
+- `Scene graph classification`: joint classification of predicate labels and the objects' category given the grounding bounding boxes.
+- `Scene graph detection`: detect the objects and their categories, and predict the predicate between object pairs.
 
 ### LLM-based 
 
@@ -118,10 +124,13 @@ In this graph, the nodes correspond to object bounding boxes with their category
 
 + [**ReCon1M:A Large-scale Benchmark Dataset for Relation Comprehension in Remote Sensing Imagery**](https://arxiv.org/pdf/2406.06028) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
-+ [**Reltr: Relation transformer for scene graph generation**](https://arxiv.org/abs/2201.11460) [![Paper](https://img.shields.io/badge/TAMPI23-ffa07a)]()  [![Star](https://img.shields.io/github/stars/yrcong/RelTR.svg?style=social&label=Star)](https://github.com/yrcong/RelTR)
++ [**Reltr: Relation transformer for scene graph generation**](https://arxiv.org/abs/2201.11460) [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()  [![Star](https://img.shields.io/github/stars/yrcong/RelTR.svg?style=social&label=Star)](https://github.com/yrcong/RelTR)
 
++ [**Prototype-based Embedding Network for Scene Graph Generation**](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Prototype-Based_Embedding_Network_for_Scene_Graph_Generation_CVPR_2023_paper.pdf)[![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/VL-Group/PENET.svg?style=social&label=Star)]([VL-Group/PENET](https://github.com/VL-Group/PENET))
 
 + [**SGTR: End-to-end Scene Graph Generation with Transformer**](https://arxiv.org/pdf/2112.12970) [![Paper](https://img.shields.io/badge/CVPR22-8A2BE2)]() [![Star](https://img.shields.io/github/stars/Scarecrow0/SGTR.svg?style=social&label=Star)](https://github.com/Scarecrow0/SGTR)
+
++ [**Fine-Grained Scene Graph Generation with Data Transfer**](https://arxiv.org/pdf/2203.11654) [![Paper](https://img.shields.io/badge/ECCV22-1e90ff)]() [![Star](https://img.shields.io/github/stars/waxnkw/IETrans-SGG.pytorch.svg?style=social&label=Star)](https://github.com/waxnkw/IETrans-SGG.pytorch)
 
 + [**Iterative Scene Graph Generation**](https://proceedings.neurips.cc/paper_files/paper/2022/file/99831104028c3b7e6079fd8bdcc42c8f-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/NIPS22-CD5C5C2)]() [![Star](https://img.shields.io/github/stars/ubc-vision/IterativeSG.svg?style=social&label=Star)](https://github.com/ubc-vision/IterativeSG)
 
@@ -224,7 +233,15 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 ## Textual Scene Graph Generation
 
++ [**FACTUAL: A Benchmark for Faithful and Consistent Textual Scene Graph Parsing**](https://arxiv.org/pdf/2305.17497) [![Paper](https://img.shields.io/badge/ACL23-191970)]()  [![Star](https://img.shields.io/github/stars/zhuang-li/FactualSceneGraph.svg?style=social&label=Star)](https://github.com/zhuang-li/FactualSceneGraph) 
 
++ [**Scene Graph Parsing via Abstract Meaning Representation in Pre-trained Language Models**](https://aclanthology.org/2022.dlg4nlp-1.4.pdf) [![Paper](https://img.shields.io/badge/DLG4NLP22-deb887)]() 
+
++ [**Scene Graph Parsing by Attention Graph**](https://arxiv.org/pdf/1909.06273) [![Paper](https://img.shields.io/badge/NIPS18-CD5C5C2)]()
+
++ [**Scene Graph Parsing as Dependency Parsing**](https://www.cs.jhu.edu/~cxliu/papers/sgparser_naacl18.pdf) [![Paper](https://img.shields.io/badge/NAACL18-191970)]() [![Star](https://img.shields.io/github/stars/Yusics/bist-parser.svg?style=social&label=Star)](https://github.com/Yusics/bist-parser/tree/sgparser) 
+
++ [**Generating Semantically Precise Scene Graphs from Textual Descriptions for Improved Image Retrieval**](https://nlp.stanford.edu/pubs/schuster-krishna-chang-feifei-manning-vl15.pdf) [![Paper](https://img.shields.io/badge/VL15-191970)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://nlp.stanford.edu/software/scenegraph-parser.shtml)
 ---
 
 
@@ -299,7 +316,24 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 + [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
 
-+ [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
++ [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() <details>Sumarry</details>
+
+
+---
+
+# Miscellaneous
+
+## Toolkit
+Here, we provide some toolkits for parsing scene graphs or other useful tools for referencess.
+
+
+## Workshop
+
+
+## Survey
+
+
+
 
 
 
