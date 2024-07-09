@@ -333,13 +333,28 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 
 + [**Stanford Scene Graph Parser**](https://nlp.stanford.edu/software/scenegraph-parser.shtml)
 
++ [**SceneGraphParser**](https://github.com/vacancy/SceneGraphParser) [![Star](https://img.shields.io/github/stars/vacancy/SceneGraphParser.svg?style=social&label=Star)](https://github.com/vacancy/SceneGraphParser)
 
 
 ## Workshop
 
++ [**2nd Workshop on Scene Graphs and Graph Representation Learning**](https://sites.google.com/view/sg2rl/index) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=qvof1eiN-E0)
+
++ [**First ICCV Workshop on Scene Graphs and Graph Representation Learning**](https://sites.google.com/view/sg2rl/sg2rl-2023/home) [![Paper](https://img.shields.io/badge/ICCV23-2f4f4f)]() [[paper_list]](https://github.com/DmitryRyumin/ICCV-2023-Papers/blob/main/sections/2023/workshops/w-scene-graphs-and-graph-representation-learning.md)
+
+
++ [**Scene Graph Representation and Learning**](https://cs.stanford.edu/people/ranjaykrishna/sgrl/index.html) [![Paper](https://img.shields.io/badge/ICCV19-2f4f4f)]() 
+
++ [**DIRA Workshop and Challenge**](https://cvpr-dira.lipingyang.org/) 
+
++ [**Lecture 18: Scene Graphs and Graph Convolutions**](https://cs231n.stanford.edu/slides/2020/lecture_18.pdf)
+
 
 ## Survey
 
++ [**Scene Graphs: A Survey of Generations and Applications**](https://www.xiaojun.ai/papers/Scene-Graph-Survey.pdf)
+
++ [**Scene Graph Generation: A Comprehensive Survey**](https://arxiv.org/pdf/2201.00443)
 
 
 
