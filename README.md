@@ -154,8 +154,9 @@ There are three subtasks:
 
 + [**Evidential Unvertainty and Diversity Guided Active Learning for Scene Graph Generation**](https://openreview.net/pdf?id=xI1ZTtVOtlz) [![Paper](https://img.shields.io/badge/ICLR23-696969)]()
 
-+ [**Prototype-based Embedding Network for Scene Graph Generation**](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Prototype-Based_Embedding_Network_for_Scene_Graph_Generation_CVPR_2023_paper.pdf)[![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/VL-Group/PENET.svg?style=social&label=Star)]([VL-Group/PENET](https://github.com/VL-Group/PENET))
++ [**Prototype-based Embedding Network for Scene Graph Generation**](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Prototype-Based_Embedding_Network_for_Scene_Graph_Generation_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/VL-Group/PENET.svg?style=social&label=Star)]([VL-Group/PENET](https://github.com/VL-Group/PENET))
 
++ [**IS-GGT: Iterative Scene Graph Generation With Generative Transformers**](https://openaccess.thecvf.com/content/CVPR2023/papers/Kundu_IS-GGT_Iterative_Scene_Graph_Generation_With_Generative_Transformers_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]()
 
 + [**SGTR: End-to-end Scene Graph Generation with Transformer**](https://arxiv.org/pdf/2112.12970) [![Paper](https://img.shields.io/badge/CVPR22-8A2BE2)]() [![Star](https://img.shields.io/github/stars/Scarecrow0/SGTR.svg?style=social&label=Star)](https://github.com/Scarecrow0/SGTR)
 
@@ -330,6 +331,10 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 ## Enhanced VLM/MLLM
 
 + [**Compositional Chain-of-Thought Prompting for Large Multimodal Models**](https://arxiv.org/pdf/2311.17076) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/chancharikmitra/CCoT)
+
+
+## Information Extraction
+
 
 ## 3D Generation
 
