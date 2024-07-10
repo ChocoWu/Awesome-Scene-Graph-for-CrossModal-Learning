@@ -115,6 +115,14 @@ There are three subtasks:
 + [**Visually-Prompted Language Model for Fine-Grained Scene Graph Generation in an Open World**](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_Visually-Prompted_Language_Model_for_Fine-Grained_Scene_Graph_Generation_in_an_ICCV_2023_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV23-00CED1)]()  [![Star](https://img.shields.io/github/stars/Yuqifan1117/CaCao.svg?style=social&label=Star)](https://github.com/Yuqifan1117/CaCao) 
 
 
++ [**GPT4SGG: Synthesizing Scene Graphs from Holistic and Region-specific Narratives**](https://arxiv.org/pdf/2312.04314) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://gpt4vision.github.io/gpt4sgg/)
+
++ [**Expanding Scene Graph Boundaries: Fully Open-vocabulary Scene Graph Generation via Visual-Concept Alignment and Retention**](https://arxiv.org/pdf/2311.10988) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]()
+
++ [**Less is More: Toward Zero-Shot Local Scene Graph Generation via Foundation Models**](https://arxiv.org/pdf/2310.01356)  [![Paper](https://img.shields.io/badge/arXiv23-b22222)]()
+
+
++ [**Enhancing Scene Graph Generation with Hierarchical Relationships and Commonsense Knowledge**](https://arxiv.org/pdf/2311.12889) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]() [![Star](https://img.shields.io/github/stars/bowen-upenn/scene_graph_commonsense.svg?style=social&label=Star)](https://github.com/bowen-upenn/scene_graph_commonsense) 🙆‍♀️👈 
 
 
 ### Non-LLM-based
@@ -133,15 +141,21 @@ There are three subtasks:
 
 + [**Improving Scene Graph Generation with Relation Words’ Debiasing in Vision-Language Models**](https://arxiv.org/pdf/2403.16184) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
+
++ [**Adaptive Visual Scene Understanding: Incremental Scene Graph Generation**](https://arxiv.org/pdf/2310.01636)  [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
 + [**ReCon1M:A Large-scale Benchmark Dataset for Relation Comprehension in Remote Sensing Imagery**](https://arxiv.org/pdf/2406.06028) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**Reltr: Relation transformer for scene graph generation**](https://arxiv.org/abs/2201.11460) [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()  [![Star](https://img.shields.io/github/stars/yrcong/RelTR.svg?style=social&label=Star)](https://github.com/yrcong/RelTR)
 
 + [**Unbiased Scene Graph Generation via Two-stage Causal Modeling**](https://arxiv.org/pdf/2307.05276) [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()
 
++ [**Zero-Shot Scene Graph Generation via Triplet Calibration and Reduction**](https://arxiv.org/pdf/2309.03542) [![Paper](https://img.shields.io/badge/TOMM23-ffa07a)]() [![Star](https://img.shields.io/github/stars/jkli1998/T-CAR.svg?style=social&label=Star)](https://github.com/jkli1998/T-CAR) 
+
 + [**Evidential Unvertainty and Diversity Guided Active Learning for Scene Graph Generation**](https://openreview.net/pdf?id=xI1ZTtVOtlz) [![Paper](https://img.shields.io/badge/ICLR23-696969)]()
 
 + [**Prototype-based Embedding Network for Scene Graph Generation**](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_Prototype-Based_Embedding_Network_for_Scene_Graph_Generation_CVPR_2023_paper.pdf)[![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/VL-Group/PENET.svg?style=social&label=Star)]([VL-Group/PENET](https://github.com/VL-Group/PENET))
+
 
 + [**SGTR: End-to-end Scene Graph Generation with Transformer**](https://arxiv.org/pdf/2112.12970) [![Paper](https://img.shields.io/badge/CVPR22-8A2BE2)]() [![Star](https://img.shields.io/github/stars/Scarecrow0/SGTR.svg?style=social&label=Star)](https://github.com/Scarecrow0/SGTR)
 
@@ -167,6 +181,13 @@ There are three subtasks:
 + [**Visual Relationship Detection with Language Priors**](https://arxiv.org/pdf/1608.00187) [![Paper](https://img.shields.io/badge/ECCV16-1e90ff)]() [![Star](https://img.shields.io/github/stars/Prof-Lu-Cewu/Visual-Relationship-Detection.svg?style=social&label=Star)](https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection)
 
 
+
+## Panoptic Scene Graph Generation
+
+
++ [**TextPSG: Panoptic Scene Graph Generation from Textual Descriptions**](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_TextPSG_Panoptic_Scene_Graph_Generation_from_Textual_Descriptions_ICCV_2023_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV23-00CED1)]() [![Star](https://img.shields.io/github/stars/chengyzhao/TextPSG.svg?style=social&label=Star)](https://github.com/chengyzhao/TextPSG)  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://vis-www.cs.umass.edu/TextPSG/)
+
++ [**Segmentation-grounded Scene Graph Generation**](https://openaccess.thecvf.com/content/ICCV2021/papers/Khandelwal_Segmentation-Grounded_Scene_Graph_Generation_ICCV_2021_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV21-00CED1)]() [![Star](https://img.shields.io/github/stars/ubc-vision/segmentation-sg.svg?style=social&label=Star)](https://github.com/ubc-vision/segmentation-sg) 
 
 
 
@@ -305,6 +326,10 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 ## Visual Question Answering 
 + [**SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge**](https://arxiv.org/pdf/2405.09713) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://bobbywu.com/SOKBench/)
 
+
+## Enhanced VLM/MLLM
+
++ [**Compositional Chain-of-Thought Prompting for Large Multimodal Models**](https://arxiv.org/pdf/2311.17076) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/chancharikmitra/CCoT)
 
 ## 3D Generation
 
