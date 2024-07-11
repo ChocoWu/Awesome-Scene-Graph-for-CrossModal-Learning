@@ -69,6 +69,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [Action Genome](https://github.com/JingweiJ/ActionGenome) | Video | 35 | 0.4M | 25 | 1.7M | 10,000 |
 | [AeroEye](https://arxiv.org/pdf/2406.01029) | Video (Drone-View) | 56 | - | 384 | - | 2.2M |
 | [PVSG](https://jingkang50.github.io/PVSG/) | Video (panoptic) | 126 | - |  57 |  - | 400|
+| [ASPIRe](https://uark-cviu.github.io/ASPIRe/) | Video(Interlacements) | - | - | 4.5K | - | 1.5K |
 | [3D Semantic Scene Graphs (3DSSG)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) | 3D | 40 | - | - | - | 48K|
 | [PSG4D](https://arxiv.org/pdf/2405.10305) | 4D | 46 | - | 15 | - | - | - |
 | [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) | Text | - | - | - | - | 40,369 |
@@ -212,7 +213,12 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 + [**CYCLO: Cyclic Graph Transformer Approach to Multi-Object Relationship Modeling in Aerial Videos**](https://arxiv.org/pdf/2406.01029) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 
-+ [**OED: Towards One-stage End-to-End Dynamic Scene Graph Generation**](https://arxiv.org/pdf/2405.16925) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/guanw-pku/OED.svg?style=social&label=Star)](https://github.com/guanw-pku/OED)
++ [**OED: Towards One-stage End-to-End Dynamic Scene Graph Generation**](https://arxiv.org/pdf/2405.16925) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/guanw-pku/OED.svg?style=social&label=Star)](https://github.com/guanw-pku/OED) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/oed-cvpr24/%E9%A6%96%E9%A1%B5)
+
++ [**HIG: Hierarchical Interlacement Graph Approach to Scene Graph Generation in Video Understanding**](https://arxiv.org/pdf/2312.03050) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://uark-cviu.github.io/ASPIRe/) <details><summary>Summary</summary>Introduce a new dataset which delves into interactivities understanding within visual content by deriving scene graph representations from dense interactivities among humans and objects</details>
+
++ [**Action Scene Graphs for Long-Form Understanding of Egocentric Videos**](https://arxiv.org/pdf/2312.03391) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/fpv-iplab/EASG.svg?style=social&label=Star)](https://github.com/fpv-iplab/EASG)
+
 
 + [**End-to-End Video Scene Graph Generation With Temporal Propagation Transformer**](https://ieeexplore.ieee.org/document/10145598) [![Paper](https://img.shields.io/badge/TMM23-556b2f)]()
 
@@ -269,7 +275,9 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 + [**SGRec3D: Self-Supervised 3D Scene Graph Learning via Object-Level Scene Reconstruction**](https://arxiv.org/pdf/2309.15702)  [![Paper](https://img.shields.io/badge/WACV24-800080)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://kochsebastian.com/sgrec3d)
 
++ [**Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships**](https://kochsebastian.com/open3dsg) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/boschresearch/Open3DSG.svg?style=social&label=Star)](https://github.com/boschresearch/Open3DSG) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://kochsebastian.com/open3dsg)
 
++ [**CLIP-Driven Open-Vocabulary 3D Scene Graph Generation via Cross-Modality Contrastive Learning**](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_CLIP-Driven_Open-Vocabulary_3D_Scene_Graph_Generation_via_Cross-Modality_Contrastive_Learning_CVPR_2024_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]()
 
 + [**Incremental 3D Semantic Scene Graph Prediction from RGB Sequences**](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Incremental_3D_Semantic_Scene_Graph_Prediction_From_RGB_Sequences_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://shunchengwu.github.io/MonoSSG)
 
@@ -339,6 +347,9 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 ## 3D Generation
 
 + [**Compositional 3D Scene Synthesis with Scene Graph Guided Layout-Shape Generation**](https://arxiv.org/pdf/2403.12848) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
++ [**GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs**](https://arxiv.org/pdf/2312.00093)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/GGGHSL/GraphDreamer.svg?style=social&label=Star)](https://github.com/GGGHSL/GraphDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://graphdreamer.github.io/)
+
 
 
 ## Mitigate Hallucination 
