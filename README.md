@@ -196,7 +196,12 @@ There are three subtasks:
 
 ## Spatio-Temporal (Video) Scene Graph Generation
 
-VSG provides a detailed and structured interpretation of the whole scene by parsing an event into a sequence of interactions between different visual entities.
+Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph generation, aims to provide a detailed and structured interpretation of the whole scene by parsing an event into a sequence of interactions between different visual entities. It ususally involves two subtasks:
+
+- `Scene graph detection`: aims to generate scene graphs for given videos, comprising detection results of subject-object pari and the associatde predicates. The localization of object prediction is considered accurate when the Intersection over Union (IoU) between the prediction and ground truth is greater than 0.5.
+- `Predicate classification`: classifiy predicates for given oracle detection results of subject-object pairs.
+- <details><summary>Noted</summary>Noted: Evaluation is conducted with two settings: ***With Constraint*** and ***No constraints***. In the former the generated graphs are restricted to at most one edge, i.e., each subject-object pair is allowed only one predicate and in the latter, the graphs can have multiple edges</details>
+
 
 ### LLM-based 
 
@@ -226,7 +231,7 @@ VSG provides a detailed and structured interpretation of the whole scene by pars
 
 
 
-+ [**Unbiased scene graph generation in videos**]() [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/sayaknag/unbiasedSGG.svg?style=social&label=Star)](https://github.com/sayaknag/unbiasedSGG)
++ [**Unbiased scene graph generation in videos**](https://openaccess.thecvf.com/content/CVPR2023/papers/Nag_Unbiased_Scene_Graph_Generation_in_Videos_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/sayaknag/unbiasedSGG.svg?style=social&label=Star)](https://github.com/sayaknag/unbiasedSGG)
 
 + [**Panoptic Video Scene Graph Generation**](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Panoptic_Video_Scene_Graph_Generation_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/LilyDaytoy/OpenPVSG.svg?style=social&label=Star)](https://github.com/LilyDaytoy/OpenPVSG)
 
