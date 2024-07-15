@@ -26,19 +26,23 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Textual Scene Graph Generation](#textual-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
   - [Image Retrieval](#image-retrieval)
+  - [Image Caption](#image-caption)
   - [2D Image Generation](#2d-image-generation)
-  - [3D Generation](#3d-generation)
   - [Visual Question Answering](#visual-question-answering)
+  - [VLM/MLLM Enhancing](#enhanced-vlmmllm)
+  - [Information Extraction](#information-extraction)
+  - [3D Generation](#3d-generation)
   - [Mitigate Hallucination](#mitigate-hallucination)
   - [Dynamic Environment Guidance](#dynamic-environment-guidance)
   - [Privacy-sensitive Object Identification](#privacy-sensitive-object-identification)
-  - [Image Captioning](#)
+  - [Referring Expression Comprehension](#referring-expression-comprehension)
   - [Video Retrieval](#video-retrieval)
 - [🤶 Evaluation Metrics](#evaluation-metrics)
 - [🐱‍🚀 Miscellaneous](#miscellaneous)
   - [Toolkit](#toolkit)
   - [Workshop](#workshop)
   - [Survey](#survey)
+  - [Insteresting Works](#insteresting-works)
 - [⭐️ Star History](#️-star-history)
 
 
@@ -345,13 +349,31 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 + [**Image captioning based on scene graphs: A survey**](https://www.sciencedirect.com/science/article/abs/pii/S0957417423012009) 
 
 
+
+
+
+
 ## 2D Image Generation
 
 + [**SG-Adapter: Enhancing Text-to-Image Generation with Scene Graph Guidance**](https://arxiv.org/pdf/2405.15321) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**Generated Contents Enrichment**](https://arxiv.org/pdf/2405.03650) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
++ [**Joint Generative Modeling of Scene Graphs and Images via Diffusion Models**](https://arxiv.org/pdf/2401.01130) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
++ [**Image Synthesis with Graph Conditioning: CLIP-Guided Diffusion Models for Scene Graphs**](https://arxiv.org/pdf/2401.14111) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
++ [**R3CD: Scene Graph to Image Generation with Relation-Aware Compositional Contrastive Control Diffusion**](https://ojs.aaai.org/index.php/AAAI/article/view/28155)  [![Paper](https://img.shields.io/badge/AAAI24-191970)]()
+
++ [**Imagine that! abstract-to-intricate text-to-image synthesis with scene graph hallucination diffusion**](https://proceedings.neurips.cc/paper_files/paper/2023/file/fa64505ebdc94531087bc81251ce2376-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C)]()
+
+
++ [**SceneGenie: Scene Graph Guided Diffusion Models for Image Synthesis**](https://openaccess.thecvf.com/content/ICCV2023W/SG2RL/papers/Farshad_SceneGenie_Scene_Graph_Guided_Diffusion_Models_for_Image_Synthesis_ICCVW_2023_paper.pdf) [![Paper](https://img.shields.io/badge/ICCVW23-2f4f4f)]()
+
+
 + [**Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Trainin**](https://arxiv.org/pdf/2211.11138)  [![Paper](https://img.shields.io/badge/arXiv22-b22222)]()  [![Star](https://img.shields.io/github/stars/YangLing0818/SGDiff.svg?style=social&label=Star)](https://github.com/YangLing0818/SGDiff)
+
++ [**OSCAR-Net: Object-centric Scene Graph Attention for Image Attribution**](https://openaccess.thecvf.com/content/ICCV2021/papers/Nguyen_OSCAR-Net_Object-Centric_Scene_Graph_Attention_for_Image_Attribution_ICCV_2021_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() [![Star](https://img.shields.io/github/stars/exnx/oscar.svg?style=social&label=Star)](https://github.com/exnx/oscar) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://exnx.github.io/oscar/)
 
 + [**Semantic Image Manipulation Using Scene Graphs**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dhamo_Semantic_Image_Manipulation_Using_Scene_Graphs_CVPR_2020_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR20-8A2BE2)]() [![Star](https://img.shields.io/github/stars/he-dhamo/simsg.svg?style=social&label=Star)](https://github.com/he-dhamo/simsg) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://he-dhamo.github.io/SIMSG/)
 
@@ -403,6 +425,9 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 + [**GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs**](https://arxiv.org/pdf/2312.00093)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/GGGHSL/GraphDreamer.svg?style=social&label=Star)](https://github.com/GGGHSL/GraphDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://graphdreamer.github.io/)
 
 
++ [**CommonScenes: Generating Commonsense 3D Indoor Scenes with Scene Graph Diffusion**](https://proceedings.neurips.cc/paper_files/paper/2023/file/5fba70900a84a8fb755c48ba99420c95-Paper-Conference.pdf)   [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/commonscenes.svg?style=social&label=Star)](https://github.com/ymxlzgy/commonscenes) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/commonscenes)
+
++ [**Graph-to-3D: End-to-End Generation and Manipulation of 3D Scenes Using Scene Graphs**](https://openaccess.thecvf.com/content/ICCV2021/papers/Dhamo_Graph-to-3D_End-to-End_Generation_and_Manipulation_of_3D_Scenes_Using_Scene_ICCV_2021_paper.pdf)  [![Paper](https://img.shields.io/badge/ICCV21-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://he-dhamo.github.io/Graphto3D/)
 
 
 
