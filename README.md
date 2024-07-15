@@ -330,8 +330,19 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 
 
+## Image Caption 
 
++ [**Transforming Visual Scene Graphs to Image Captions**](https://aclanthology.org/2023.acl-long.694.pdf) [![Paper](https://img.shields.io/badge/ACL23-191970)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://anonymous.4open.science/r/ACL23_TFSGC.git)
 
++ [**Cross2StrA: Unpaired Cross-lingual Image Captioning with Cross-lingual Cross-modal Structure-pivoted Alignment**](https://arxiv.org/pdf/2305.12260)  [![Paper](https://img.shields.io/badge/ACL23-191970)]()
+
++ [**UNISON: Unpaired Cross-Lingual Image Captioning**](https://ojs.aaai.org/index.php/AAAI/article/view/21310) [![Paper](https://img.shields.io/badge/AAAI22-191970)]() 
+
++ [**Comprehensive Image Captioning via Scene Graph Decomposition**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123590205.pdf) [![Paper](https://img.shields.io/badge/ECCV20-1e90ff)]()  [![Star](https://img.shields.io/github/stars/YiwuZhong/Sub-GC.svg?style=social&label=Star)](https://github.com/YiwuZhong/Sub-GC)  [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://pages.cs.wisc.edu/~yiwuzhong/Sub-GC.html)
+
++ [**From Show to Tell: A Survey on Deep Learning-based Image Captioning**](https://arxiv.org/pdf/2107.06912) [![Paper](https://img.shields.io/badge/arXiv21-b22222)]()
+
++ [**Image captioning based on scene graphs: A survey**](https://www.sciencedirect.com/science/article/abs/pii/S0957417423012009) 
 
 
 ## 2D Image Generation
@@ -340,8 +351,19 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 + [**Generated Contents Enrichment**](https://arxiv.org/pdf/2405.03650) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
++ [**Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Trainin**](https://arxiv.org/pdf/2211.11138)  [![Paper](https://img.shields.io/badge/arXiv22-b22222)]()  [![Star](https://img.shields.io/github/stars/YangLing0818/SGDiff.svg?style=social&label=Star)](https://github.com/YangLing0818/SGDiff)
+
++ [**Semantic Image Manipulation Using Scene Graphs**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dhamo_Semantic_Image_Manipulation_Using_Scene_Graphs_CVPR_2020_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR20-8A2BE2)]() [![Star](https://img.shields.io/github/stars/he-dhamo/simsg.svg?style=social&label=Star)](https://github.com/he-dhamo/simsg) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://he-dhamo.github.io/SIMSG/)
+
++ [**Image Generation from Scene Graphs**](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0764.pdf) [![Paper](https://img.shields.io/badge/CVPR18-8A2BE2)]() [![Star](https://img.shields.io/github/stars/google/sg2im.svg?style=social&label=Star)](https://github.com/google/sg2im)
+
+
+
+
+
 ## Visual Question Answering 
 + [**SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge**](https://arxiv.org/pdf/2405.09713) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://bobbywu.com/SOKBench/)
+
 
 
 ## Enhanced VLM/MLLM
@@ -370,6 +392,9 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 ## Information Extraction
 
 + [**M3S: Scene Graph Driven Multi-Granularity Multi-Task Learning for Multi-Modal NER**](https://ieeexplore.ieee.org/abstract/document/9944151) [![Paper](https://img.shields.io/badge/TPAMI-ffa07a)]()
+
+
+
 
 ## 3D Generation
 
@@ -459,6 +484,8 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 + [**Scene Graphs: A Survey of Generations and Applications**](https://www.xiaojun.ai/papers/Scene-Graph-Survey.pdf)
 
 + [**Scene Graph Generation: A Comprehensive Survey**](https://arxiv.org/pdf/2201.00443)
+
++ [**A Comprehensive Survey of Scene Graphs: Generation and Application**](https://ieeexplore.ieee.org/abstract/document/9661322) [![Paper](https://img.shields.io/badge/TPAMI21-ffa07a)]()
 
 
 ## Insteresting Works
