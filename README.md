@@ -365,6 +365,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 + [**R3CD: Scene Graph to Image Generation with Relation-Aware Compositional Contrastive Control Diffusion**](https://ojs.aaai.org/index.php/AAAI/article/view/28155)  [![Paper](https://img.shields.io/badge/AAAI24-191970)]()
 
+
 + [**Imagine that! abstract-to-intricate text-to-image synthesis with scene graph hallucination diffusion**](https://proceedings.neurips.cc/paper_files/paper/2023/file/fa64505ebdc94531087bc81251ce2376-Paper-Conference.pdf) [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C)]()
 
 
