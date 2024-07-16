@@ -528,6 +528,8 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 + [**AIMS: All-Inclusive Multi-Level Segmentation for Anything**](https://proceedings.neurips.cc/paper_files/paper/2023/file/3da292ced54290c19fc55d9dba3da793-Paper-Conference.pdf)
 
 
++ [**Awesome Scene Graphs**](https://github.com/huoxingmeishi/Awesome-Scene-Graphs)
++ [**awesome-scene-graph**](https://github.com/mqjyl/awesome-scene-graph)
 
 # ⭐️ Star History
 
