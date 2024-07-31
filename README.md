@@ -23,7 +23,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Panoptic Scene Graph Generation](#panoptic-scene-graph-generation)
   - [Spatio-Temporal (Video) Scene Graph Generation](#spatio-temporal-video-scene-graph-generation)
   - [Audio Scene Graph Generation](#audio-scene-graph-generation)
-  - [3D Scene Graph Generation](#3d-scene-graph-generation)\
+  - [3D Scene Graph Generation](#3d-scene-graph-generation)
   - [4D Scene Graph Gnereation](#)
   - [Textual Scene Graph Generation](#textual-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
@@ -407,6 +407,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud, and
 
 
 ## Enhanced VLM/MLLM
+
++ [**Semantic Compositions Enhance Vision-Language Contrastive Learning**](https://arxiv.org/pdf/2407.01408) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**Compositional Chain-of-Thought Prompting for Large Multimodal Models**](https://arxiv.org/pdf/2311.17076) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://github.com/chancharikmitra/CCoT)
 
