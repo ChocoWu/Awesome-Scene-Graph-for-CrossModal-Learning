@@ -288,7 +288,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 ## 3D Scene Graph Generation
 Given a 3D point cloud $P \in R^{N×3}$ consisting of $N$ points, we assume there is a set of class-agnostic instance masks $M = \{M_1, ..., M_K\}$ corresponding to $K$ entities in $P$, `3D Scene Graph Generation` aims to map the input 3D point cloud to a reliable semantically structured scene graph $G = \{O, R\}$. 
-Compared with 2D scene graph Generation, the input of 3D SGG is point cloud, and the output
+Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion**](https://arxiv.org/pdf/2405.00915) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/ymxlzgy/echoscene.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sites.google.com/view/echoscene)
 
