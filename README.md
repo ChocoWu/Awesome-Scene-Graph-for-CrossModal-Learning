@@ -306,6 +306,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 + [**Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR20-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/ShunChengWu/3DSSG.svg?style=social&label=Star)](https://github.com/ShunChengWu/3DSSG) 
 
++ [**3D Scene Graph: A Structure for Unified Semantics, 3D Space, and Camera**](https://openaccess.thecvf.com/content_ICCV_2019/papers/Armeni_3D_Scene_Graph_A_Structure_for_Unified_Semantics_3D_Space_ICCV_2019_paper.pdf) [![Paper](https://img.shields.io/badge/ICCV19-2f4f4f)]() [![Star](https://img.shields.io/github/stars/StanfordVL/3DSceneGraph.svg?style=social&label=Star)](https://github.com/StanfordVL/3DSceneGraph) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://3dscenegraph.stanford.edu/)
+
 
 
 
