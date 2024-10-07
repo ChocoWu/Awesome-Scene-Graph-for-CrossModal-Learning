@@ -24,7 +24,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Spatio-Temporal (Video) Scene Graph Generation](#spatio-temporal-video-scene-graph-generation)
   - [Audio Scene Graph Generation](#audio-scene-graph-generation)
   - [3D Scene Graph Generation](#3d-scene-graph-generation)
-  - [4D Scene Graph Gnereation](#)
+  - [4D Scene Graph Gnereation](#4d-scene-graph-gnereation)
   - [Textual Scene Graph Generation](#textual-scene-graph-generation)
 - [🥝 Scene Graph Application](#-scene-graph-application)
   - [Image Retrieval](#image-retrieval)
