@@ -135,6 +135,8 @@ There are three subtasks:
 
 ### Non-LLM-based
 
++ [**Scene Graph Generation Strategy with Co-occurrence Knowledge and Learnable Term Frequency**](https://arxiv.org/pdf/2405.12648) [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]()
+
 + [**Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation**](https://arxiv.org/pdf/2407.15396) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/JeonJaeHyeong/DPL.svg?style=social&label=Star)](https://github.com/JeonJaeHyeong/DPL)
 
 + [**Fine-Grained Scene Graph Generation via Sample-Level Bias Prediction**](https://arxiv.org/pdf/2407.19259) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/Zhuzi24/SBG.svg?style=social&label=Star)](https://github.com/Zhuzi24/SBG)
@@ -263,9 +265,6 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 
 + [**End-to-End Video Scene Graph Generation With Temporal Propagation Transformer**](https://ieeexplore.ieee.org/document/10145598) [![Paper](https://img.shields.io/badge/TMM23-556b2f)]()
-
-
-
 
 
 + [**Unbiased scene graph generation in videos**](https://openaccess.thecvf.com/content/CVPR2023/papers/Nag_Unbiased_Scene_Graph_Generation_in_Videos_CVPR_2023_paper.pdf) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]() [![Star](https://img.shields.io/github/stars/sayaknag/unbiasedSGG.svg?style=social&label=Star)](https://github.com/sayaknag/unbiasedSGG)
@@ -430,6 +429,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## Visual Reasoning
 
++ [**SpatialRGPT: Grounded Spatial Reasoning in Vision-Language Models**](https://arxiv.org/pdf/2406.01584) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://www.anjiecheng.me/SpatialRGPT) [![Star](https://img.shields.io/github/stars/AnjieCheng/SpatialRGPT.svg?style=social&label=Star)](https://github.com/AnjieCheng/SpatialRGPT) 
+
 + [**SceneGPT: A Language Model for 3D Scene Understanding**](https://arxiv.org/pdf/2408.06926) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**Towards Flexible Visual Relationship Segmentation**](https://arxiv.org/pdf/2408.08305) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() <details><summary>A single model that seamlessly integrates Visual relationship understanding has been studied separately in human-object interaction (HOI) detection, scene graph generation (SGG), and referring relationships (RR) tasks.</summary>FleVRS leverages the synergy between text and
@@ -561,6 +562,7 @@ a scene and accommodate them with proper places.</details>
 + [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 
+
 ---
 
 # 🐱‍🚀 Miscellaneous
@@ -611,6 +613,7 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 + [**DMESA: Densely Matching Everything by Segmenting Anything**](https://arxiv.org/pdf/2408.00279)
 + [**PanopticRecon: Leverage Open-vocabulary Instance Segmentation for Zero-shot Panoptic Reconstruction**](https://arxiv.org/pdf/2407.01349)
 + [**R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding**](https://arxiv.org/pdf/2403.12301)
++ [**Multimodal Contextualized Semantic Parsing from Speech**](https://arxiv.org/pdf/2406.06438)
 
 + [**Awesome Scene Graphs**](https://github.com/huoxingmeishi/Awesome-Scene-Graphs)
 + [**awesome-scene-graph**](https://github.com/mqjyl/awesome-scene-graph)
