@@ -238,6 +238,11 @@ There are three subtasks:
 
 Compared with traditional scene graph, each object is grounded by `a panoptic segmentation mask` in PSG, achieving a compresensive structured scene representation.
 
++ [**From Easy to Hard: Learning Curricular Shape-aware Features for Robust Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2407.09191)  [![Paper](https://img.shields.io/badge/IJCV24-b22222)]()
+
+
++ [**A Fair Ranking and New Model for Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2407.09216) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]()
+
 + [**OpenPSG: Open-set Panoptic Scene Graph Generation via Large Multimodal Models**](https://arxiv.org/pdf/2407.11213) [![Paper](https://img.shields.io/badge/ECCV24-1e90ff)]() [![Star](https://img.shields.io/github/stars/franciszzj/OpenPSG.svg?style=social&label=Star)](https://github.com/franciszzj/OpenPSG)
 
 + [**Panoptic scene graph generation with semantics-prototype learning**](https://ojs.aaai.org/index.php/AAAI/article/view/28098)[![Paper](https://img.shields.io/badge/AAAI24-c71585)]() [![Star](https://img.shields.io/github/stars/lili0415/PSG-biased-annotation.svg?style=social&label=Star)](https://github.com/lili0415/PSG-biased-annotation)
@@ -260,7 +265,7 @@ Spatio-Temporal (Video) Scene Graph Generation, a.k.a, dynamic scene graph gener
 
 - `Scene graph detection`: aims to generate scene graphs for given videos, comprising detection results of subject-object pari and the associatde predicates. The localization of object prediction is considered accurate when the Intersection over Union (IoU) between the prediction and ground truth is greater than 0.5.
 - `Predicate classification`: classifiy predicates for given oracle detection results of subject-object pairs.
-- <details><summary>Noted</summary>Noted: Evaluation is conducted with two settings: ***With Constraint*** and ***No constraints***. In the former the generated graphs are restricted to at most one edge, i.e., each subject-object pair is allowed only one predicate and in the latter, the graphs can have multiple edges</details>
+- <details><summary>Noted</summary>Noted: Evaluation is conducted with two settings: ***With Constraint*** and ***No constraints***. In the former the generated graphs are restricted to at most one edge, i.e., each subject-object pair is allowed only one predicate and in the latter, the graphs can have multiple edges. More details can refer to <a href="https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch/blob/master/METRICS.md">Metrics</a>.</details>
 
 
 ### LLM-based 
@@ -389,6 +394,9 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 ## Image Retrieval
 
++ [**Composing Object Relations and Attributes for Image-Text Matching**](https://arxiv.org/pdf/2406.11820)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/vkhoi/cora_cvpr24.svg?style=social&label=Star)](https://github.com/vkhoi/cora_cvpr24)  
+ 
+
 + [**Cross-modal Scene Graph Matching for Relationship-aware Image-Text Retrieval**](https://openaccess.thecvf.com/content_WACV_2020/papers/Wang_Cross-modal_Scene_Graph_Matching_for_Relationship-aware_Image-Text_Retrieval_WACV_2020_paper.pdf) [![Paper](https://img.shields.io/badge/WACV20-800080)]()
 
 
@@ -397,6 +405,8 @@ Compared with 2D scene graph Generation, the input of 3D SGG is point cloud.
 
 
 ## Image Caption 
+
++ [**Graph-Based Captioning: Enhancing Visual Descriptions by Interconnecting Region Captions**](https://arxiv.org/pdf/2407.06723) [![Paper](https://img.shields.io/badge/arXiv24-b22222)](https://arxiv.org/pdf/2407.06723) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://huggingface.co/graph-based-captions)<details><summary>Introducing new dataset GBC10M</summary>Humans describe complex scenes with compositionality, using simple text descriptions enriched with links and relationships. While vision-language research has aimed to develop models with compositional understanding capabilities, this is not reflected yet in existing datasets which, for the most part, still use plain text to describe images. In this work, we propose a new annotation strategy, graph-based captioning (GBC) that describes an image using a labelled graph structure, with nodes of various types. We demonstrate that GBC can be produced automatically, using off-the-shelf multimodal LLMs and open-vocabulary detection models, by building a new dataset, GBC10M, gathering GBC annotations for about 10M images of the CC12M dataset</details>
 
 + [**Transforming Visual Scene Graphs to Image Captions**](https://aclanthology.org/2023.acl-long.694.pdf) [![Paper](https://img.shields.io/badge/ACL23-191970)]() [![Star](https://img.shields.io/github/stars/chancharikmitra/CCoT.svg?style=social&label=Star)](https://anonymous.4open.science/r/ACL23_TFSGC.git)
 
@@ -509,6 +519,8 @@ textual features from vision-language models to visual conceptual understanding.
 
 ## 3D Generation
 
++ [**INSTRUCTLAYOUT: Instruction-Driven 2D and 3D Layout Synthesis with Semantic Graph Prior**](https://arxiv.org/pdf/2407.07580) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
+
 + [**Compositional 3D Scene Synthesis with Scene Graph Guided Layout-Shape Generation**](https://arxiv.org/pdf/2403.12848) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 + [**GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs**](https://arxiv.org/pdf/2312.00093)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Star](https://img.shields.io/github/stars/GGGHSL/GraphDreamer.svg?style=social&label=Star)](https://github.com/GGGHSL/GraphDreamer) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://graphdreamer.github.io/)
@@ -535,10 +547,13 @@ dataset Visual Genome (VG), from which semantic triplets follow real-world distr
 
 ## Dynamic Environment Guidance
 
+
++ [**Open Scene Graphs for Open World Object-Goal Navigation**](https://arxiv.org/pdf/2407.02473) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://open-scene-graphs.github.io/)
+
 + [**LLM-enhanced Scene Graph Learning for Household Rearrangement**](https://arxiv.org/pdf/2408.12093) [![Paper](https://img.shields.io/badge/SIGGRAPHASIA-24-b22222)]() <details><summary>household rearrangement</summary>The household rearrangement task involves spotting misplaced objects in
 a scene and accommodate them with proper places.</details>
 
-+ [**Situational Instructions Database: Task Guidance in Dynamic Environments**](https://arxiv.org/pdf/2406.13302) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/mindgarage/situational-instructions-database.svg?style=social&label=Star)](https://github.com/mindgarage/situational-instructions-database)
++ [**Situational Instructions Database: Task Guidance in Dynamic Environments**](https://arxiv.org/pdf/2406.13302) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/mindgarage/situational-instructions-database.svg?style=social&label=Star)](https://github.com/mindgarage/situational-instructions-database) <details><summary>Situational Instructions Database (SID)</summary>Situational Instructions Database (SID) is a dataset for dynamic task guidance. It contains situationally-aware instructions for performing a wide range of everyday tasks or completing scenarios in 3D environments. The dataset provides step-by-step instructions for these scenarios which are grounded in the context of the situation. This context is defined through a scenario-specific scene graph that captures the objects, their attributes, and their relations in the environment. The dataset is designed to enable research in the areas of grounded language learning, instruction following, and situated dialogue.</details>
 
 + [**RoboHop: Segment-based Topological Map Representation for Open-World Visual Navigation**](https://arxiv.org/pdf/2405.05792) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://oravus.github.io/RoboHop/)
 
@@ -615,7 +630,9 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 
 + [**Visually Grounded Concept Composition**](https://arxiv.org/pdf/2109.14115)
 + [**AIMS: All-Inclusive Multi-Level Segmentation for Anything**](https://proceedings.neurips.cc/paper_files/paper/2023/file/3da292ced54290c19fc55d9dba3da793-Paper-Conference.pdf)
-
++ [**DMESA: Densely Matching Everything by Segmenting Anything**](https://arxiv.org/pdf/2408.00279)
++ [**PanopticRecon: Leverage Open-vocabulary Instance Segmentation for Zero-shot Panoptic Reconstruction**](https://arxiv.org/pdf/2407.01349)
++ [**R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding**](https://arxiv.org/pdf/2403.12301)
 
 + [**Awesome Scene Graphs**](https://github.com/huoxingmeishi/Awesome-Scene-Graphs)
 + [**awesome-scene-graph**](https://github.com/mqjyl/awesome-scene-graph)
