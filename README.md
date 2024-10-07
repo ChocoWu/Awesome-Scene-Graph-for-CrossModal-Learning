@@ -558,7 +558,7 @@ a scene and accommodate them with proper places.</details>
 
 + [**A Review and Efficient Implementation of Scene Graph Generation Metrics**](https://arxiv.org/pdf/2404.09616) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/lorjul/sgbench.svg?style=social&label=Star)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lorjul.github.io/sgbench/)
 
-+ [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() <details>Sumarry</details>
++ [**Semantic Similarity Score for Measuring Visual Similarity at Semantic Level**](https://arxiv.org/pdf/2406.03865) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
 
 ---
@@ -574,6 +574,10 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 + [**SceneGraphParser**](https://github.com/vacancy/SceneGraphParser) [![Star](https://img.shields.io/github/stars/vacancy/SceneGraphParser.svg?style=social&label=Star)](https://github.com/vacancy/SceneGraphParser)
 
 + [**FactualSceneGraph**](https://github.com/zhuang-li/FactualSceneGraph) [![Star](https://img.shields.io/github/stars/zhuang-li/FactualSceneGraph.svg?style=social&label=Star)](https://github.com/zhuang-li/FactualSceneGraph)
+
++ [**Scene-Graph-Benchmark.pytorch**](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)  [![Star](https://img.shields.io/github/stars/KaihuaTang/Scene-Graph-Benchmark.pytorch.svg?style=social&label=Star)](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)
+
+
 
 ## Workshop
 
@@ -598,6 +602,8 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 + [**A Comprehensive Survey of Scene Graphs: Generation and Application**](https://ieeexplore.ieee.org/abstract/document/9661322) [![Paper](https://img.shields.io/badge/TPAMI21-ffa07a)]()
 
 
+
+
 ## Insteresting Works
 
 + [**Visually Grounded Concept Composition**](https://arxiv.org/pdf/2109.14115)
@@ -608,6 +614,9 @@ Here, we provide some toolkits for parsing scene graphs or other useful tools fo
 
 + [**Awesome Scene Graphs**](https://github.com/huoxingmeishi/Awesome-Scene-Graphs)
 + [**awesome-scene-graph**](https://github.com/mqjyl/awesome-scene-graph)
+
+
+
 
 # ⭐️ Star History
 
