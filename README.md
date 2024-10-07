@@ -30,7 +30,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
   - [Image Retrieval](#image-retrieval)
   - [Image Caption](#image-caption)
   - [2D Image Generation](#2d-image-generation)
-  - [Visual Question Answering](#visual-question-answering)
+  - [Visual Reasoning](#visual-reasoning)
   - [VLM/MLLM Enhancing](#enhanced-vlmmllm)
   - [Information Extraction](#information-extraction)
   - [3D Generation](#3d-generation)
