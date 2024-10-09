@@ -79,7 +79,8 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [ASPIRe](https://uark-cviu.github.io/ASPIRe/) | Video(Interlacements) | - | - | 4.5K | - | 1.5K |
 | [3D Semantic Scene Graphs (3DSSG)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) | 3D | 40 | - | - | - | 48K|
 | [PSG4D](https://arxiv.org/pdf/2405.10305) | 4D | 46 | - | 15 | - | - | - |
-| [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) | Text | - | - | - | - | 40,369 |
+| [4D-OR](https://github.com/egeozsoy/4D-OR) | 4D | 12 | - | 14 | - | - |
+| [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) |  Image, Text  | 4042 | - | 1607 | 40,149 | 40,369 |
 </p>
 
 
@@ -171,6 +172,11 @@ There are three subtasks:
 
 + [**ReCon1M:A Large-scale Benchmark Dataset for Relation Comprehension in Remote Sensing Imagery**](https://arxiv.org/pdf/2406.06028) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()
 
++ [**RepSGG: Novel Representations of Entities and Relationships for Scene Graph Generation**](https://ieeexplore.ieee.org/document/10531674)  [![Paper](https://img.shields.io/badge/TPAMI24-ffa07a)]()
+
++ [**Improving Scene Graph Generation with Superpixel-Based Interaction Learning**](https://dl.acm.org/doi/pdf/10.1145/3581783.3611889) [![Paper](https://img.shields.io/badge/MM23-8b4513)]()
+
+
 + [**Reltr: Relation transformer for scene graph generation**](https://arxiv.org/abs/2201.11460) [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()  [![Star](https://img.shields.io/github/stars/yrcong/RelTR.svg?style=social&label=Star)](https://github.com/yrcong/RelTR)
 
 + [**Unbiased Scene Graph Generation via Two-stage Causal Modeling**](https://arxiv.org/pdf/2307.05276) [![Paper](https://img.shields.io/badge/TPAMI23-ffa07a)]()
@@ -211,6 +217,10 @@ There are three subtasks:
 ## Panoptic Scene Graph Generation
 
 Compared with traditional scene graph, each object is grounded by `a panoptic segmentation mask` in PSG, achieving a compresensive structured scene representation.
+
++ [**Pair then Relation: Pair-Net for Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2307.08699) [![Paper](https://img.shields.io/badge/TPAMI-ffa07a)]() [![Star](https://img.shields.io/github/stars/king159/Pair-Net.svg?style=social&label=Star)](https://github.com/king159/Pair-Net)
+
+
 
 + [**From Easy to Hard: Learning Curricular Shape-aware Features for Robust Panoptic Scene Graph Generation**](https://arxiv.org/pdf/2407.09191)  [![Paper](https://img.shields.io/badge/IJCV24-b22222)]()
 
