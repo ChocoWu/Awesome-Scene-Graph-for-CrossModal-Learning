@@ -80,7 +80,7 @@ In this graph, the nodes correspond to object bounding boxes with their category
 | [3D Semantic Scene Graphs (3DSSG)](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.pdf) | 3D | 40 | - | - | - | 48K|
 | [PSG4D](https://arxiv.org/pdf/2405.10305) | 4D | 46 | - | 15 | - | - | - |
 | [4D-OR](https://github.com/egeozsoy/4D-OR) | 4D | 12 | - | 14 | - | - |
-| [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) |  Image, Text  | 4042 | - | 1607 | 40,149 | 40,369 |
+| [FACTUAL](https://github.com/zhuang-li/FactualSceneGraph) |  Image, Text  | 4,042 | - | 1607 | 40,149 | 40,369 |
 </p>
 
 
